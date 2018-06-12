@@ -4,7 +4,8 @@ pipeline {
         stage('Code Checkout') { 
             steps {
                 // Provide git url to checkout using pipeline syntax.
-              git credentialsId: 'GithubID', url: 'https://github.com/Indianteam123/indianteam.git'
+              git credentialsId: 'GithubID', url: 'https://github.com/Shabarishjake/IndianDevops'
+
             }
         }
         stage('Build') { 
